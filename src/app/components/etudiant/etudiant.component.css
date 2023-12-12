@@ -1,0 +1,23 @@
+table{
+    border: 1px solid black;
+    text-align: center;
+}
+
+td{
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
+
+img{
+    max-width: 100px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

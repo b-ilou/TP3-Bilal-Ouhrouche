@@ -1,0 +1,18 @@
+<section>
+<img src="assets/Livre.jpeg" alt="">
+
+<table>
+    <tr>
+        <th>
+            Libelle
+        </th>
+        <th>
+            N°id
+        </th>
+    </tr>
+    <tr *ngFor="let Specialite of tabSpec">
+        <td>{{ Specialite._libelle }}</td>
+        <td>{{ Specialite._idSpec }}</td>
+    </tr>
+    </table>
+    </section>
